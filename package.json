@@ -1,0 +1,15 @@
+{
+  "name": "jeeeeens",
+  "version": "1.0.0",
+  "description": "A discord bot for the random APIs!",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Majikku",
+  "license": "ISC"
+}
