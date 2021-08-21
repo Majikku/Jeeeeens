@@ -4,7 +4,8 @@ module.exports = {
     name: 'insult',
     description: 'Sends a insult back!',
     execute(msg, args) {
-        fetch('https://evilinsult.com/generate_insult.php?lang=en&type=json')
+        var url = 'https://evilinsult.com/generate_insult.php?lang=en&type=json';
+        fetch(url, { method: 'GET' })
         .then(res => res.json())
         .then(json => msg.channel.send(json.insult));
     }
